@@ -20,7 +20,7 @@ app.get("/", async (req,res) =>
 const startServer= async () => {
     try{
               connectDB(process.env.MONGODB_URL);
-              app.listen(8080, () => console.log('Server has started on port https://dall-e-83da.onrender.com')
+              app.listen(8080, () => console.log('Server has started on port https://localhost:8080')
               )
     }
     catch(error){
