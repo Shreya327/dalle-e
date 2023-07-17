@@ -51,8 +51,10 @@ const CreatePost = () => {
       alert("Please enter a prompt");
     }
   };
+  
   const handleSubmit = async(e) => {
     e.preventDefault();
+
     if(form.prompt && form.photo){
       setLoading(true);
 
@@ -68,10 +70,12 @@ const CreatePost = () => {
   
           await response.json();
           navigate('/');
-        } catch (error) {
+        } 
+        catch (error) {
           alert(error);
           
-        }finally{
+        }
+        finally{
           setLoading(false);
         }
 

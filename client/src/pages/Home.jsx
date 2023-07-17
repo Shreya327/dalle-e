@@ -41,12 +41,15 @@ const Home = () => {
             console.log(result.data.reverse());
             setAllPosts(result.data.reverse());
           }
-        } catch (error) {
-          console.log(error);
-        }finally{
+        } 
+        catch (error) {
+         alert(error);
+        }
+        finally{
           setLoading(false);
         }
       }
+
       useEffect( () => {
       fetchPosts();
     }, []);
