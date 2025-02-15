@@ -1,8 +1,5 @@
 # 🖼️ DALL-E Clone - AI Image Generator  
 
-![dalle-clone-img](https://drive.google.com/file/d/1l4aGdGsPDXjfyZXW3MQ_KrD5C_ixnNXA/view?usp=drive_link)
-![home-img](https://drive.google.com/file/d/1JRZLlK6j15FJVCACse8X3fdxHb6tP8eP/view?usp=drive_link)
-
 A **full-stack AI-powered image generation** web application built with the **MERN stack** and OpenAI's DALL-E API. Users can generate images based on text prompts and manage their saved images.  
 
 ## 🚀 Features  
