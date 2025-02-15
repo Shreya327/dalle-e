@@ -2,6 +2,10 @@
 
 A **full-stack AI-powered image generation** web application built with the **MERN stack** and OpenAI's DALL-E API. Users can generate images based on text prompts and manage their saved images.  
 
+![Image](https://github.com/user-attachments/assets/fe412de3-ec52-4c1d-b145-ba5743ea3a6f)
+
+![Image](https://github.com/user-attachments/assets/66854675-1c79-473a-b54e-185ee8886f52)
+
 ## 🚀 Features  
 
 ✅ **AI Image Generation** - Users enter text prompts, and OpenAI's DALL-E API generates images.  
