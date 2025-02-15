@@ -25,28 +25,37 @@ A **full-stack AI-powered image generation** web application built with the **ME
 ### 
 **1️⃣ Clone the Repository**  
 
-```git clone https://github.com/Shreya327/dalle-e
-cd DALL-E-Clone```
+```
+git clone https://github.com/Shreya327/dalle-e
+cd DALL-E-Clone
+```
 
 **2️⃣ Set Up Backend (Server)**
 
-```cd server
-npm install```
+```
+cd server
+npm install
+```
 
 - Create a .env file in the server folder and add:
-```OPENAI_API_KEY=your_openai_api_key
+```
+OPENAI_API_KEY=your_openai_api_key
 MONGO_URI=your_mongodb_connection_string
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret```
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
 
 -Start the server
-```npm run dev```
+```
+npm run dev
+```
 
 **3️⃣ Set Up Frontend (Client)**
 
-```cd ../client
+```
+cd ../client
 npm install
-npm run dev```
+npm run dev
+```
 
-``
